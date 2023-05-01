@@ -1,0 +1,96 @@
+.Titlebar {
+    flex-grow: 0.2;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.calc-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+    align-self: center;
+    margin-left: 1.5rem;
+}
+
+.icon-and-title-div {
+    width: 8.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    color: white;
+    align-self: center;
+    font-size: 0.9rem;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 8.5rem;
+    align-self: stretch;
+}
+
+.close-button {
+    width: 0.8rem;
+    height: 0.8rem;
+    align-self: center;
+}
+
+.close-button-div {
+    display: flex;
+    box-sizing: border-box;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    width: 33.3333%;
+    opacity: 0.7;
+}
+
+.close-button-div:hover {
+    background-color: red;
+    border: 0.001rem thin red;
+    border-radius: 0 0.5rem 0 0;
+    cursor: pointer;
+}
+
+.minimize-button {
+    height: 1rem;
+    width: 1.5rem;
+    align-self: center;
+}
+
+.minimize-button-div {
+    display: flex;
+    box-sizing: border-box;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    width: 33.3333%;
+}
+
+.minimize-button-div:hover {
+    background-color: #3d3d3d;
+    cursor: pointer;
+}
+
+.maximize-button {
+    width: 1.0rem;
+}
+
+.maximize-button-div {
+    display: flex;
+    box-sizing: border-box;
+    align-self: stretch;
+    align-items: center;
+    justify-content: center;
+    width: 33.3333%;
+}
+
+.maximize-button-div:hover {
+    background-color: #3d3d3d;
+    cursor: pointer;
+}
