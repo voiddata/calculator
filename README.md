@@ -1,6 +1,6 @@
 # Windows Calculator clone
 
-Aim: to create a windows calculator clone using react functional components
+Aim: to create a windows calculator clone using react functional components with typescript template
 
 
 

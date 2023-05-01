@@ -1,9 +1,12 @@
 .Parent {
     background-color: #202020;
-    height: 45rem;
-    width: 27rem;
+    min-height: 45rem;
+    min-width: 27rem;
     display: flex;
     flex-direction: column;
     border: 0.01rem solid #202020;
     border-radius: 0.5rem;
+    overflow: auto;
+    resize: both;
+    align-self: stretch;
 }

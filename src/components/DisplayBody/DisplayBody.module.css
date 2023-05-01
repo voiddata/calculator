@@ -1,4 +1,15 @@
 .DisplayBody {
     display: flex;
+    flex-direction: column;
     flex-basis: 80%;
+}
+
+.label-div {
+    background-color: aqua;
+    flex-basis: 30%;
+}
+
+.display-div {
+    background-color: yellow;
+    flex-basis: 70%;
 }
