@@ -8,5 +8,15 @@
     border-radius: 0.5rem;
     overflow: auto;
     resize: both;
-    align-self: stretch;
+    align-self: center;
+}
+
+.Parent-mazimize {
+    height: 99.8vh;
+    width: 100vw;
+}
+
+.Parent-minimize {
+    height: 45rem;
+    width: 27rem;
 }
